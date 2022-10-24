@@ -20,7 +20,7 @@ namespace EventAgency.Dal
 
         #endregion DbSets
 
-        public IConfiguration Configuration { get; }
+        private readonly IConfiguration Configuration;
 
         public EventAgencyContext(IConfiguration configuration)
         {
